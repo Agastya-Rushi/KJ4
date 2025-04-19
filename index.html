@@ -15,7 +15,7 @@
             --yellow-green: #95c623;
             --persimmon: #e55812;
             --alabaster: #efe7da;
-            --light-green: #a0baba; /* Updated to a lighter background color */
+            --light-green: #c0d0d0; /* Lighter green for alternating sections */
         }
 
         * {
@@ -97,7 +97,7 @@
         }
 
         .hero-section {
-            background: linear-gradient(rgba(0, 38, 38, 0.7), rgba(14, 71, 73, 0.8)), url('images/background-hero.jpg');
+            background: linear-gradient(rgba(0, 38, 38, 0.5), rgba(14, 71, 73, 0.6)), url('images/background-hero.jpg');
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -224,11 +224,12 @@
             border: 1px solid rgba(229, 88, 18, 0.3);
             position: relative;
             overflow: hidden;
-            font-family: 'Great Vibes', cursive; /* Unified font for all cards */
+            font-family: 'Montserrat', sans-serif; /* Non-cursive font for all cards */
         }
 
         .detail-card h3 {
             font-size: 2rem;
+            font-family: 'Great Vibes', cursive; /* Keep header in script font */
         }
 
         .detail-card p {
@@ -513,7 +514,7 @@
     </section>
 
     <!-- Map Section -->
-    <section class="section bg-dark-green text-alabaster animate__animated animate__slideInRight">
+    <section class="section bg-light-green text-dark-green animate__animated animate__slideInRight">
         <div class="container mx-auto text-center">
             <h2 class="section-title script-font">Venue Location</h2>
             <div class="map-container animate__animated animate__zoomIn">
@@ -624,7 +625,7 @@
                         'yellow-green': '#95c623',
                         'persimmon': '#e55812',
                         'alabaster': '#efe7da',
-                        'light-green': '#a0baba'
+                        'light-green': '#c0d0d0'
                     },
                     fontFamily: {
                         'great-vibes': ['Great Vibes', 'cursive'],
